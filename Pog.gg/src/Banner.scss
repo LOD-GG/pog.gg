@@ -1,0 +1,83 @@
+.banner{
+    height: 400px;
+    background-color: rgb(229, 230, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 110px;
+        height: 50px;
+    }
+}
+
+.form{
+    width: 500px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 8px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form input{
+    position: absolute;
+    background-color: #000;
+    height: 50px;
+    font-size: 1rem;
+    color: #fff;
+    border: 2px solid #fe8758;
+    outline: none;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 140px;
+    border-radius: 8px;
+}
+
+.logo-pubg{
+    position: absolute;
+    top: 12px;
+    left: -80px;
+    z-index: 10;
+    width: 100px;
+    img{
+        width: 100px;
+        height: 30px;
+    }
+}
+
+
+.search-icon{
+    cursor: pointer;
+    position: absolute;
+    border: none;
+    margin: 16px 320px;
+    font-size: 20px;
+    background-color: #000;
+    outline: none;
+    
+    img{
+        z-index: 11;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.search-dak{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 12rem;
+    height: 100px;
+    img{
+        width: 12rem;
+    }
+}

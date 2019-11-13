@@ -1,0 +1,136 @@
+a{
+    text-decoration: none;
+    color: black;
+    &:hover{
+        text-decoration: underline;
+        text-decoration-color: skyblue;
+        color: skyblue;
+    }
+}
+
+.CommunityBestPage{
+    position: absolute;
+    margin-top: 30px;   
+    width: 100%;
+    background-color: rgb(157, 160, 219);
+}
+
+.community-best-wrapper{
+    margin: 0 auto;
+    width: 1048px;
+    margin-top: 30px;
+    min-height: 396px;
+    background: #fff;
+    border: solid 1px #e9eff4;
+}
+
+.community-best-title{
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    h4{
+        margin-left: 10px;
+        text-align: center;
+    }
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.community-best-content{
+
+}
+
+.community-best-left{
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        width: 100%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        border: 1px solid #f0f0f0;
+        &:hover{
+            cursor: pointer;
+            background: #fbfbfb;
+        }
+    }
+}
+.best{
+    float: left;
+}
+
+.best-rank{
+    float: left;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ED6767;
+}
+
+.best-img{
+
+}
+
+.best-title{
+    text-overflow: ellipsis;
+    margin-top: 14px;
+    margin-right: 0px;
+    width: 800px;
+    span{
+        display: inline;
+        line-height: 20px;
+        font-size: 14px;
+        color: #1e2022;
+        word-break: break-all;
+        }
+        em{
+            color: #ED6767;
+            font: inherit;
+        }
+}
+
+.best-data{
+    margin-top: 6px;
+    margin-right: 0px;
+    color: #879292;
+    line-height: 15px;
+    font-size: 12px;
+    width: 800px;
+    span{
+        margin-right: 10px;
+    }
+}
+
+.best-like{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    width: 85px;
+    margin-top: 20px;
+    &:hover{
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,.15);    
+    }
+    button{
+        background: none;
+        border: 0px;
+    }
+    img{
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        
+    }
+    .like-count{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: right;
+        width: 40px;
+        height: 30px;
+        
+    }
+}

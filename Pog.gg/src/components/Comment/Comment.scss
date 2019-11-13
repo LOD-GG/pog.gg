@@ -1,0 +1,48 @@
+.comment-list{
+    height: 55px;
+    border-top: 0.5px solid rgba(0,0,0,.15);
+    padding: 8px 0;
+    
+    &:hover{
+        background-color: #f8f9fa;
+    }
+}
+.comment-list-vote{
+    float: left;
+    width: 72px;
+    vertical-align: middle;
+    text-align: center;
+    div{
+        margin-top: 5px;
+        line-height: 17px;
+        font-size: 14px;
+        color: #7b858e;
+        font-weight: 600;
+    }
+}
+
+.comment-list-content{ 
+    display: table-cell;
+}
+
+
+.comment-list-item{
+    margin-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.comment-list-item-data{
+    &:first-child{
+        padding: 0;
+        border: 0;
+    }
+    display: inline-block;
+    width: 70px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #98a0a7;
+    padding-left: 8px;
+    border-left: 1px solid rgba(0,0,0,.15);
+}
