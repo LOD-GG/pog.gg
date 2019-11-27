@@ -1,0 +1,5 @@
+drop table example.comment;
+drop table example.users;
+drop table example.freeboard;
+drop table example.highlightboard;
+drop table example.teamboard;
