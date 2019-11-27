@@ -1,0 +1,50 @@
+create table users(
+userid varchar(50) not null,
+password varchar(150) not null,
+username varchar(50) not null,
+id bigint(20) not null auto_increment primary key
+);
+
+create table freeboard(
+content longtext not null,
+writer varchar(50) not null,
+title varchar(100) not null,
+champion varchar(40) not null,
+date datetime not null,
+viewCount int ,
+voteCount int ,
+commentCount int ,
+freeId bigint(20) not null auto_increment primary key
+);
+
+create table highlightboard(
+writer varchar(50) not null,
+link varchar(150) not null,
+category int(3) not null,
+date datetime not null,
+commentCount int not null,
+voteCount int not null,
+freeId bigint(20) not null auto_increment primary key
+);
+
+create table teamboard(
+content longtext not null,
+writer varchar(50) not null,
+title varchar(50) not null,
+teamName varchar(40) not null,
+date datetime not null,
+viewCount int,
+voteCount int,
+commentCount int,
+freeId bigint(20) not null auto_increment primary key
+);
+
+create table comment(
+content varchar(255) not null,
+writer varchar(50) not null,
+reg_date datetime not null,
+recommended int,
+freeId int not null,
+postType int not null,
+comment_id bigint(20) not null auto_increment primary key
+);
