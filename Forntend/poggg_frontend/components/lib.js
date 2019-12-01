@@ -35,12 +35,12 @@ const GetGameData = {
         else { return(`https://lolprofile.net/web/img/item-1.png`)}
     },
     getSpellUrl : (spellCode) => {
+        console.log(spellCode)
         for (let i in spellData.data) {
-            if(spellData.data[i].id === spellCode) return (`https://ddragon.leagueoflegends.com/cdn/9.18.1/img/spell/${"Summoner"+spellData.data[i].key}.png`)
+            if(spellData.data[i].id === spellCode) return (`https://ddragon.leagueoflegends.com/cdn/9.19.1/img/spell/${"Summoner"+spellData.data[i].key}.png`)
         }
     },
     getPreferData : (data) => {
-        
         let champ = [],
             rankCount = 0,
             playChamp = [],

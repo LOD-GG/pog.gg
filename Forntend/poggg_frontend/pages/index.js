@@ -20,7 +20,7 @@ const Home = () => {
                 <div class="main_items_wrapper">
                     <div class="main_items">
                         <div class="main_header_title">
-                            <b>LOD.GG</b>에서 여러 게임을 만나보세요!<br/>
+                            <b>POG.GG</b>에서 여러 게임을 만나보세요!<br/>
                         </div>
                         <div class="main_search">
                             <input onKeyPress={onEnterClick} onChange={(e) => setUsername(e.target.value)} value={username} placeholder="챔피언, 소환사명 검색"/>

@@ -1,0 +1,60 @@
+.rank {
+    width: 300px;
+    height: 140px;
+    border: 1px solid #cdd2d2;
+    box-shadow: 0 1px #dcdfdf;
+    background: #f2f2f2;
+    border-radius: 2px;
+}
+.TierImage {
+    padding-top: 10px;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 130px;
+    height: 110px;
+}
+.rank .TierImage img{
+    width: 110px;
+    height: 110px;
+}
+.TierInfo {
+    padding-top: 30px;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+}
+.unranked{
+    height: 70px;
+
+}
+.RankType {
+    font-size: 13px;
+    color: #879292;
+}
+.TierRank {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1f8ecd;
+}
+.LeaguePoints {
+    padding-left: 5px;
+    color: #555e5e;
+    font-weight: bold;
+}
+.WinLose {
+    font-size: 14px;
+    color: #879292;
+}
+.rank + .rank {
+    margin-top: 10px;
+}
+.Unranked {
+    font-size: 13px;
+    font-weight: bold;
+    color: #879292;
+}

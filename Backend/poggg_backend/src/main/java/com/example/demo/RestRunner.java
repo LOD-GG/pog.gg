@@ -2,18 +2,16 @@ package com.example.demo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import javax.servlet.http.HttpServletResponse;
+import java.util.Map;
 
 @CrossOrigin(origins = "*")
 @RestController
 public class RestRunner {
-    String api_key = "RGAPI-79657b4b-2289-4ca1-9a3e-29ed72cdca29";
+    String api_key = "RGAPI-3f9a0906-f8b8-417d-8f56-fdcd12de0fda";
     String pandaApi_key = "PSUfNuHCvA21YK-sRwiOKPQ1fK8JqFfZkzcjgcInP3yZ8dasKls";
     @Autowired
     RestTemplateBuilder restTemplateBuilder;
@@ -62,6 +60,14 @@ public class RestRunner {
     public String esportsMatch(@RequestParam String leagueId) throws InterruptedException {
         RestTemplate restTemplate = restTemplateBuilder.build();
         String helloResult = restTemplate.getForObject("https://api.pandascore.co/leagues/"+leagueId +"/series?token="+pandaApi_key, String.class);
+        System.out.println(helloResult);
+
+        return helloResult;
+    }
+    @GetMapping("/pastMatch")
+    public String pastMatch() throws InterruptedException {
+        RestTemplate restTemplate = restTemplateBuilder.build();
+        String helloResult = restTemplate.getForObject("https://api.pandascore.co/lol/matches/past?token="+pandaApi_key, String.class);
         System.out.println(helloResult);
 
         return helloResult;

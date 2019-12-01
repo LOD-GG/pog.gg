@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './LolLayout';","map":{"version":3,"sources":["D:\\ReactProject\\javaproject\\lod.gg\\Forntend\\poggg_frontend\\components\\LolLayout\\index.js"],"names":["default"],"mappings":"AAAA,SAAQA,OAAR,QAAsB,aAAtB","sourcesContent":["export {default} from './LolLayout';"]},"metadata":{},"sourceType":"module"}

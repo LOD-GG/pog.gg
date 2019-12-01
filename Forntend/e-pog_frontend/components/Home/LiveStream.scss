@@ -1,0 +1,47 @@
+
+.LiveStreams__container {
+    width: 1110px;
+    
+    margin-right: -.625rem;
+}
+.LiveStreams__streaming {
+    display: inline-block;
+    margin-bottom: 1.25rem;
+    margin-right: .625rem;
+    width: 214px;
+    height: 158px;
+}
+.LiveStreams__streaming__thumbnail {
+    display: block;
+    width: 214px;
+    height: 120px;
+    height: auto;
+    margin-bottom: .5rem;
+}
+.PlayerIcon {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0;
+}
+.PlayerIcon.small {
+    width: 1.875rem;
+    height: 1.875rem;
+}
+.LiveStreams__streaming_player {
+    display: inline-block;
+    width: 200px;
+}
+.LiveStreams__streaming__playerName {
+    display: inline-block;
+    width: 100px;
+    margin-left: .5rem;
+    top: .2rem;
+    color: #fbfbfb;
+}
+.LiveStreams__streaming__playerIcon {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #d8d8d8;
+}

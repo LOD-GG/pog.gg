@@ -1,0 +1,98 @@
+.login-form__contianer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+    min-height: 800px;
+}
+.login-form__inner {
+    border-radius: 10px;
+    width: 500px;
+    background-color: #2a2b30;;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    margin: 0 40px;
+    padding-bottom: 40px;
+}
+.login-from__logo {
+    padding-top: 48px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+.login-form__logo-image {
+    width: 200px;
+    height: 100px;
+}
+.login__email-title {
+    margin-top: 42px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.member-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.member-input__state {
+    width: 300px;
+    margin-top: 27px;
+    position: relative;
+    padding: 10px 0 11px;
+    border-bottom: 1px solid #dddfe4;
+}
+.member-input__state input{ 
+    color: white;
+}
+.member-input__box {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    z-index: 10;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    outline: 0;
+}
+.login__btn {
+    margin-top: 40px;
+    width: 300px;
+}
+.member-button {
+    position: relative;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    background-color: #1ea1f7;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 56px;
+    padding: 0 20px;
+}
+.member-button:disabled {
+    background-color: #dddfe4!important;
+    cursor: default!important;
+}
+.member-button, .member-button:disabled {
+    font-size: 16px;
+    border-radius: 3px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 0;
+    height: 56px;
+}
+.login__l-sign-up {
+    position: relative;
+    text-align: center;
+    margin-top: 16px;
+    color: white;
+}
+.login__sign-up-link {
+    display: inline;
+    cursor: pointer;
+    color: #91a7ff;
+    margin-left: 12px;
+}

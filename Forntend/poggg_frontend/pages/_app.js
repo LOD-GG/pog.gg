@@ -14,9 +14,12 @@ const Lodgg = ({ Component }) => {
             </Head>
             <Component/>
             <style jsx global>{`
+                td {
+                    border-top: 1px solid #ced4da;
+                }
                 body {
                     margin: 0;
-                    ackground-color: #f5f5f5;
+                    background-color: #f5f5f5;
                 }
                 ul {
                     list-style-type: none;

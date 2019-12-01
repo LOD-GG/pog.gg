@@ -1,0 +1,41 @@
+.editor_select > .ant-select-selection {
+    border: none;
+    background-color: #dbe4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 120px;
+}
+.editor_tools {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.editor_wrapper {
+    width: 1140px;
+    height: 700x;
+    margin: 0 auto;
+}
+.option_img {
+    width: 100px;
+    height: 100px;
+}
+.editor_title {
+    width: 1140px;
+    margin: 0 auto;
+}
+.editor_title > Input {
+    width: 1140px;
+}
+.editor_title .ant-input {
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: none;
+    height: 40px;
+    margin-bottom: 10px;
+}

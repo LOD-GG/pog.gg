@@ -18,8 +18,8 @@ const AppLayout = ({ children }) => {
                 <div class="header-items">
                     <div class="site-item">
                         <ul>
-                            <li>
-                                <a href="#">
+                            <li style={{backgroundColor:"#313641"}}>
+                                <a style={{margin: "0 auto"}} href="#">
                                     <img src="https://poro.gg/images/family/ico_lol.png"/>
                                     <span>리그오브레전드</span>
                                 </a>
@@ -30,7 +30,7 @@ const AppLayout = ({ children }) => {
             </header>
             <div class="sub-items">
                 <div class="sub-items-top">
-                        <div class="sub-items-top-logo"><img src={"../../static/main_logo.png"}/><span>포그지지</span></div>
+                        <div class="sub-items-top-logo"><h1>POG.GG</h1></div>
                         <div class="sub-items-top-input">
                             <input value={username} onKeyPress={onEnterClick} onChange={(e) => setUsername(e.target.value)} placeholder="챔피언, 소환사명 검색"/>
                             <button onClick={(e) => onClick(e)}><i className="fas fa-search"></i></button>
@@ -40,9 +40,8 @@ const AppLayout = ({ children }) => {
                     <div class="sub-items-list">
                         <ul>
                             <li><a href="/">홈</a></li>
-                            <li><a href="#">챔피언분석</a></li>
-                            <li><a href="#">e스포츠</a></li>
-                            <li><a href="#">프로관전</a></li>
+                            <li><a href="http://localhost:3001/">e스포츠</a></li>
+                            <li><a href="/community">팁 게시판</a></li>
                         </ul>
                     </div>
                 </div>
@@ -50,7 +49,7 @@ const AppLayout = ({ children }) => {
             <div class="notice">
                 <div class="notice_item">
                     <i className="fas fa-exclamation-circle" style={{paddingRight: "5px"}}></i>
-                    안녕하세요 lod.gg에 오신것을 환영합니다!
+                    안녕하세요 pog.gg에 오신것을 환영합니다!
                 </div>
             </div>
             <style jsx global>

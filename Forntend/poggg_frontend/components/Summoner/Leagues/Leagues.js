@@ -54,6 +54,7 @@ const Leauges = ({name, matchList, matchesData}) => {
     return (
         <div className="GameItemList">
             {
+                
                 matchesData.map((v,i) => {
                     let match = matchList.matches.find(item => item.gameId === v.gameId);
                     let participantIdentitie = v.participantIdentities.find(item => item.player.summonerName.toLowerCase() == name.toLowerCase())
@@ -214,7 +215,7 @@ const Leauges = ({name, matchList, matchesData}) => {
                     )
                 })
             }
-                        <style jsx global>
+            <style jsx global>
                 {`
                     .GameContents {
                         width: 700px;

@@ -1,0 +1,93 @@
+.RecentMatches {
+    padding: 0;
+    margin: -1.5rem 0 0;
+}
+.RecentMatches__split {
+    float: right;
+    margin: .625rem;
+}
+.RecentMatches li, .RecentMatchesul {
+    margin: 0;
+    list-style: none;
+}
+.MatchBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    background-color: #27282d;
+    width: 100%;
+    color: #fbfbfb;
+    margin-bottom: .125rem;
+    position: relative;
+    transition: background-color 150ms ease 0ms;
+}
+.MatchBar:hover {
+    background-color : #33343B;
+}
+.MatchBar__column.arrow, .MatchBar__column.date {
+    width: 6.25rem;
+}
+.MatchBar__column.date {
+    padding-left: 1.25rem;
+}
+.MatchBar__column.finished {
+    color: #5b5c64;
+}
+.MatchBar__column {
+    white-space: nowrap;
+    position: relative;
+}
+.MatchBar__column.home {
+    text-align: right;
+}
+.MatchBar__column.away, .MatchBar__column.home {
+    width: 30%;
+}
+.MatchBar__column.board {
+    text-align: center;
+}
+.MatchBar__column.away {
+    text-align: left;
+}
+.MatchBar__column.away, .MatchBar__column.home {
+    width: 30%;
+}
+.MatchBar__column {
+    white-space: nowrap;
+    position: relative;
+}
+.MatchBar__column.arrow, .MatchBar__column.date {
+    width: 6.25rem;
+}
+.MatchBar__column.arrow {
+    text-align: right;
+    padding-right: 1.25rem;
+    justify-self: right;
+}
+.ScoreBoard {
+    position: relative;
+    width: 7.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background-color: #1e2025;
+    overflow-y: hidden;
+    cursor: pointer;
+}
+.ScoreBoard__overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation-fill-mode: both;
+    background-color: #db0442;
+    transition: transform 300ms ease-in-out;
+}
+.ScoreBoard__overlay:hover {
+    transform:translateY(-100%) 
+}
+.MatchBar__team__line {
+    margin: 0 1.5625rem;
+    position: relative;
+    top: -1.3rem;
+}

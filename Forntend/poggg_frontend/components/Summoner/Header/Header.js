@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Prefer from '../Prefer';
 const Header = ({matchlist, userinfo}) => {
-    const profileicon = `https://ddragon.leagueoflegends.com/cdn/9.17.1/img/profileicon/${userinfo.profileIconId}.png`
+    const profileicon = `https://ddragon.leagueoflegends.com/cdn/9.19.1/img/profileicon/${userinfo.profileIconId}.png`
     return (
         <>
             <div className="Summoner_Header">

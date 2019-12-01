@@ -1,0 +1,54 @@
+.champListWrap1 {
+    width: 1000px;
+    background: #013675;
+    margin: 0 auto;
+}
+.ChampImg {
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+.ChampImg img {
+    width: 50px;
+    height: 50px;
+}
+.champListWrap2 {
+    padding: 10px;
+    width: 1000px;
+    background: #0a121d;
+    margin: 2px;
+    height: 240px;
+    overflow: hidden;
+}
+.scrollingList {
+    width: 1000px;
+    height: 235px;
+    overflow: auto;
+}
+.champListWrap2 UL.champList {
+    width: 900px;
+    margin: 0 auto;
+}
+.champListWrap2 UL.champList LI {
+    width: 52px;
+    height: 77px;
+    overflow: hidden;
+    margin-right: 12px;
+}
+.scrollingList::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+.scrollingList::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.scrollingList::-webkit-scrollbar-thumb
+{
+    background-color: #000000;
+    border: 2px solid #555555;
+}

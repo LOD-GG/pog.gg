@@ -1,0 +1,57 @@
+.Prefer {
+    background-color: #f0f0f0;
+    float: right;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    border: 1px solid #cdd2d2;
+}
+.PreferLane {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    padding: 16px 0 14px 20px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #666;
+}
+.PreferChamp {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    padding: 16px 0 14px 20px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #666;
+    border-left: 1px solid #cdd2d2;
+}
+
+.PreferLane_Info {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.PreferLane_SubInfo {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.PreferLane_SubInfo > .name{
+    line-height: 16px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 4px;
+}
+.PreferLane_SubInfo > .RoleRate{
+    line-height: 12px;
+    font-size: 13px;
+    color: #1f8ecd;
+
+}

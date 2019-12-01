@@ -6,7 +6,7 @@ import MatchSchedule from '../components/Home/MatchSchedule';
 import TeamRank from '../components/Home/TeamRank';
 const Home = () => (
     <>
-        <div className="LeagueBackground"></div>
+        
         <LeagueSelector/>
         <TeamIntro/>
         <LiveStream/>

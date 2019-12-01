@@ -1,0 +1,71 @@
+.Post_top {
+    width: 1000px;
+    margin: 0 auto;
+}
+.Post_fotter {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.Post_fotter button {
+    background-color: #14a52c;
+    float: right;
+}
+.array_tab {
+    margin-top: 30px;
+    width: 250px;
+    height: 32px;
+}
+.tab_button {
+    cursor: pointer;
+    width: 82px;
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 5px;
+}
+.tab_button.on{
+    background:#74b816;
+    color: #fff;
+}
+.Post_bottom {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.tip_list {
+    width: 1000px;
+    font-family: '굴림',Gulim;  
+    border-bottom: 1px solid #69db7c;
+}
+.tip_list thead tr th {
+    height: 37px;
+    border-width: 2px 0 1px;
+    border-style: solid;
+    border-color: #69db7c;
+    vertical-align: middle;
+    text-align: center;
+    color: #333;
+    font-family: Dotum,'돋움';
+}
+
+.post {
+    cursor: pointer;
+    height: 37px;
+    background-color: #ced4da;
+}
+.post_item {
+    text-align: center;
+}
+.post_champ img {
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+}
+.post:nth-child(2n-1) {
+    background-color: #fff;
+}

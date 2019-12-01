@@ -1,0 +1,66 @@
+.Summoner_Header {
+    border-bottom: 1px solid #c6cbcb;
+    height: 220px;
+}
+.Summoner_Info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.Summoner_Header_Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1020px;
+    margin: 0 auto; 
+    height:100%;
+}
+.Summoner_Header_Style {
+    background: linear-gradient(rgb(194, 158, 82) 0px, rgb(122, 90, 38) 88%, rgb(168, 132, 73));
+    border-radius: 100%;
+    padding: 1px;
+}
+.Summoner_Header_img {
+    border-radius: 100%;
+}
+.Summoner_Header .profile {
+    border: 2px solid white;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+.Summoner_Header_Userinfo {
+    height: 104px;
+    margin-left: 25px;
+}
+.PastRank ul li{
+    display: inline-block;
+    padding: 3px 4px 2px 4px;
+    margin-right: 10px;
+    background: #e0e3e3;
+    color: #657070;
+    font-size: 11px;
+    border: 1px solid #ced3d3;
+    border-radius: 3px;
+}
+.PastRank ul li b{
+    font-weight: bold;
+}
+.Summoner_rank {
+    padding-top: 6px;
+    color: #555e5e;
+    font-size: 13px;
+}
+.Summoner_name {
+    line-height: 80px;
+    padding-top: 10px;
+    color: #242929;
+    font-size: 30px;
+    font-weight: bold;
+}
+.Summoner_Prefer {
+    width: 650px;   
+}
+.sub-items-top-input input {
+    color: black;
+}

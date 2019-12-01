@@ -1,0 +1,262 @@
+.GameContents {
+    width: 700px;
+    height: 700px;
+}
+.GameItemWrap {
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+.GameItem {
+    position: relative;
+    background: none;
+}
+.GameItem.Win > .Content {
+    table-layout: fixed;
+    background-color: #a3cfec;
+    border-color: #99b9cf;
+}
+.GameItem.Lose > .Content {
+    table-layout: fixed;
+    background-color: #E2B6B3;
+    border-color: #99b9cf;
+}
+.GameItem > .Content {
+    display: table;
+    width: 689px;
+    height: 97px;
+    border-collase: collapse;
+    border: 1px solid #cdd2d2;
+}
+.GameItem > .Content > .GameStats {
+    width: 70px;
+    text-align: center;
+    font-size: 11px;
+    color: #555;
+    line-height: 16px;
+}
+.GameItem > .Content > .GameStats > .GameResult{
+    font-weight: bold;
+}
+.GameItem > .Content > div {
+    display: table-cell;
+    height: 96px;
+    vertical-align: middle;
+}
+.GameItem>.Content>.GameStats>.GameType {
+    font-weight: bold;
+    width: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+._timeCountAssigned {
+    font-size: inherit;
+    cursor: help;
+}
+.GameItem.Lose>.Content>.GameStats>.Bar {
+    display: block;
+    width: 27px;
+    margin: 5px auto;
+    height: 2px;
+    background: #cea7a7;
+}
+.GameItem.Lose>.Content>.GameStats>.GameResult {
+    color: #c6443e;;
+}
+.GameItem.Win>.Content>.GameStats>.Bar {
+    display: block;
+    width: 27px;
+    margin: 5px auto;
+    height: 2px;
+    background: #99b9cf;
+}
+.GameItem.Win>.Content>.GameStats>.GameResult {
+    color: #1a78ae;
+}
+.GameItem>.Content>.GameSettingInfo {
+    width: 110px;
+    font-size: 0;
+}
+.GameItem>.Content>.GameSettingInfo>.ChampionImage {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    vertical-align: middle;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.GameItem>.Content>.GameSettingInfo>.ChampionImage img {
+    width: 46px;
+    height: 46px;
+}
+.GameItem>.Content>.GameSettingInfo>.SummonerSpell {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+.GameItem>.Content>.GameSettingInfo>.SummonerSpell img{
+    width: 22px;
+    height: 22px;
+    margin-top: 2px;
+}
+.GameItem>.Content>.GameSettingInfo>.SummonerSpell>.Spell:first-child {
+    margin-left: 0;
+}
+.GameItem>.Content>.GameSettingInfo>.Runes {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+.GameItem>.Content>.GameSettingInfo>.Runes>.Rune {
+    width: 22px;
+    height: 22px;
+    margin-top: 2px;
+}   
+.GameItem>.Content>.GameSettingInfo>.Runes>.Rune:first-child {
+    margin-top: 0;
+}
+.GameItem>.Content>.GameSettingInfo>.Runes>.Rune:first-child>img {
+    background: #000;
+}
+.GameItem>.Content>.GameSettingInfo>.Runes>.Rune img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.GameItem>.Content>.GameSettingInfo>.ChampionName {
+    margin-top: 8px;
+    font-size: 11px;
+    color: #555;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.GameItem>.Content>.GameSettingInfo>.ChampionName>a {
+    text-decoration: none;
+    color: inherit;
+}
+.GameItem>.Content>.KDA {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+.GameItem>.Content>.KDA>.KDA {
+    color: #879292;
+    font-size: 15px;
+    white-space: nowrap;
+}
+.GameItem>.Content>.KDA>.KDA>.Kill, .GameItem>.Content>.KDA>.KDA>.Assist {
+    color: #555e5e;
+}
+.GameItem>.Content>.KDA>.KDA>.Death {
+    color: #c6443e;
+}
+.GameItem>.Content>.KDA>.KDA>.Kill, .GameItem>.Content>.KDA>.KDA>.Assist {
+    color: #555e5e;
+}
+.GameItem>.Content>.KDA>.KDARatio {
+    color: #555e5e;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+.GameItem>.Content>.KDA>.KDARatio .KDARatio {
+    color: #353a3a;
+}
+.GameItem>.Content>.Items {
+    font-size: 0;
+}
+.GameItem>.Content>div {
+    display: table-cell;
+    height: 96px;
+    vertical-align: middle;
+}
+.GameItem>.Content>.Items .ItemList {
+    width: 96px;
+    margin: 0 auto;
+}
+.GameItem.Win>.Content>.Items>.ItemList>.Item {
+    background-color: #99b9cf;
+}
+.GameItem>.Content>.Items .Item {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 3px;
+    margin-top: 2px;
+    margin-right: 2px;
+    overflow: hidden;
+}
+.GameItem>.Content>.Items .Item img{
+    width: 22px;
+    height: 22px;
+}
+.GameItem>.Content>.Items .Item>.Image {
+    width: 100%;
+    height: 100%;
+}
+.GameItem>.Content>.Items .Trinket {
+    margin-top: 7px;
+    color: #353a3a;
+    line-height: 13px;
+    font-size: 11px;
+    text-align: center;
+}
+.GameItem>.Content>.Items .Trinket img {
+    vertical-align: middle;
+}
+.GameItem>.Content>.FollowPlayers {
+    width: 170px;
+    font-size: 0;
+}
+.GameItem>.Content>.FollowPlayers.Names>.Team {
+    float: left;
+    width: 50%;
+}
+.GameItem>.Content>.FollowPlayers.Names>.Team>.Summoner {
+    display: block;
+    width: 80px;
+    height: 18px;
+    margin-left: 3px;
+    text-align: left;
+    white-space: nowrap;
+}
+.GameItem>.Content>.FollowPlayers.Names>.Team>.Summoner>.ChampionImage {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+.GameItem>.Content>.FollowPlayers.Names>.Team>.Summoner>.ChampionImage img{
+    width: 16px;
+    height: 16px;
+}
+.GameItem>.Content>.FollowPlayers.Names>.Team>.Summoner>.SummonerName {
+    display: inline-block;
+    max-width: 60px;
+    vertical-align: middle;
+    font-size: 11px;
+    color: #555;
+}
+.GameItem>.Content>.FollowPlayers.Names>.Team>.Summoner>.SummonerName>.Link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.GameItem>.Content>.FollowPlayers.Names>.Team>.Summoner.Requester>.SummonerName>.Link {
+    color: #222;
+}
+.GameItem>.Content>.Stats {
+    width: 90px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 18px;
+    color: #555e5e;
+}
+.GameItem>.Content>.Stats>.CKRate {
+    color: #c6443e;
+}

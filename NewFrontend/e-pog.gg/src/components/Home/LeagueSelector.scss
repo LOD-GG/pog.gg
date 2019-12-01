@@ -1,0 +1,43 @@
+.LeagueSelector {
+    background-color: #27282d;;
+    cursor: pointer;
+    user-select: none;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.LeagueSelector .container {
+    position: relative;
+}
+.TournamentSymbol {
+    padding-bottom: .625rem;
+    border-bottom: 2px solid transparent;
+}
+.TournamentSymbol__image {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: .625rem;
+    vertical-align: top;
+}
+.TournamentSymbol__badge, .TournamentSymbol__label {
+    margin-left: .625rem;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: .625rem;
+    line-height: 2.5rem;
+}
+.LeagueSelector__more {
+    color: #fbfbfb;
+    transition: color .15s;
+    margin-top: .625rem;
+    line-height: 2.5rem;
+    float: right;
+    transition: color 150ms ease 0ms;
+}
+.LeagueSelector__more:hover {
+        color: #adb5bd;
+}
